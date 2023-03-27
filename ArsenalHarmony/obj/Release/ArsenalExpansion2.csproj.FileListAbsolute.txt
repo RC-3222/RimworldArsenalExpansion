@@ -1,0 +1,7 @@
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\1.4\Assemblies\ArsenalExpansion2.dll
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\ArsenalExpansion2\obj\Release\ArsenalExpansion2.csproj.AssemblyReference.cache
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\ArsenalExpansion2\obj\Release\ArsenalExpansion2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\ArsenalExpansion2\obj\Release\ArsenalExpansion2.AssemblyInfoInputs.cache
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\ArsenalExpansion2\obj\Release\ArsenalExpansion2.AssemblyInfo.cs
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\ArsenalExpansion2\obj\Release\ArsenalExpansion2.csproj.CoreCompileInputs.cache
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\ArsenalExpansion2\obj\Release\ArsenalExpansion2.dll

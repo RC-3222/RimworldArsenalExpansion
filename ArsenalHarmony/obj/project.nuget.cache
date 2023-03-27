@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AI0X6Kh/t8uDHXIwJkAB3kkyzTAbUQK8SDBah4xYqFXLT9uYCqhK3Ar3vM1eqValj4/KZIQd05j3CULxIHcNiA==",
+  "success": true,
+  "projectFilePath": "E:\\Games\\RimWorld\\Mods\\Rimworld Arsenal Expansion\\Source\\ArsenalExpansion\\ArsenalHarmony\\ArsenalHarmony.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\denva\\.nuget\\packages\\krafs.publicizer\\2.2.1\\krafs.publicizer.2.2.1.nupkg.sha512",
+    "C:\\Users\\denva\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3641\\krafs.rimworld.ref.1.4.3641.nupkg.sha512"
+  ],
+  "logs": []
+}

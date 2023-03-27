@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArsenalExpansion", "ArsenalExpansion\ArsenalExpansion.csproj", "{1CECDF1C-78F5-4C95-9DA5-164C2626A846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArsenalHarmony", "ArsenalHarmony\ArsenalHarmony.csproj", "{CBB3B84D-2082-43AC-BBF2-44D636E7FED6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CECDF1C-78F5-4C95-9DA5-164C2626A846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CECDF1C-78F5-4C95-9DA5-164C2626A846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CECDF1C-78F5-4C95-9DA5-164C2626A846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CECDF1C-78F5-4C95-9DA5-164C2626A846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB3B84D-2082-43AC-BBF2-44D636E7FED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB3B84D-2082-43AC-BBF2-44D636E7FED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB3B84D-2082-43AC-BBF2-44D636E7FED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB3B84D-2082-43AC-BBF2-44D636E7FED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

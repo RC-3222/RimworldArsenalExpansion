@@ -1,0 +1,7 @@
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\1.4\Assemblies\HarmonyTesting.dll
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\HarmonyTesting\obj\Release\HarmonyTesting.csproj.AssemblyReference.cache
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\HarmonyTesting\obj\Release\HarmonyTesting.GeneratedMSBuildEditorConfig.editorconfig
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\HarmonyTesting\obj\Release\HarmonyTesting.AssemblyInfoInputs.cache
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\HarmonyTesting\obj\Release\HarmonyTesting.AssemblyInfo.cs
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\HarmonyTesting\obj\Release\HarmonyTesting.csproj.CoreCompileInputs.cache
+E:\Games\RimWorld\Mods\[MyVersion]HALO UNSC Armoury\Source\ArsenalExpansion\HarmonyTesting\obj\Release\HarmonyTesting.dll
