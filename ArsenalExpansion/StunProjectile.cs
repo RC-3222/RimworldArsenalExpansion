@@ -19,11 +19,11 @@ public class StunProjectile : Bullet
     {
         if (hitThing is Pawn { Downed: false } hitPawn)
         {
-            var resMult = GetResistanceMult(hitPawn);
+            var effectivenessMult = GetEffectivenessMult(hitPawn);
 
-            if (Rand.Chance(GetStunChance(hitPawn, resMult)))
+            if (Rand.Chance(GetStunChance(hitPawn, effectivenessMult)))
             {
-                var stunDuration = GetStunDuration(hitPawn, resMult);
+                var stunDuration = GetStunDuration(hitPawn, effectivenessMult);
                 if (stunDuration > MinStunDuration)
                     hitPawn.stances.stunner.StunFor(stunDuration, null, false);
             }
@@ -44,21 +44,21 @@ public class StunProjectile : Bullet
 
     #region Methods
 
-    private float GetResistanceMult(Pawn hitPawn)
+    private float GetEffectivenessMult(Pawn hitPawn)
     {
-        return Def?.ResistantFleshTypes is { } resistantDict
-               && resistantDict.ContainsKey(hitPawn.RaceProps.FleshType)
-               && resistantDict[hitPawn.RaceProps.FleshType] is float resMult and >= 0 and < 1
+        return Def?.FleshTypeEffectivenessMultipliers is { } effectivenessMultDict
+               && effectivenessMultDict.ContainsKey(hitPawn.RaceProps.FleshType)
+               && effectivenessMultDict[hitPawn.RaceProps.FleshType] is float resMult and >= 0 and < 1
             ? resMult
             : -1f;
     }
 
-    private int GetStunDuration(Pawn hitPawn, float resMult)
+    private int GetStunDuration(Pawn hitPawn, float effectivenessMult)
     {
         var stunDuration = (float)(Def?.BaseStunDuration >= 0 ? Def.BaseStunDuration : DamageAmount * StunDurationMult);
 
-        if (resMult is not -1f)
-            stunDuration *= resMult;
+        if (effectivenessMult is not -1f)
+            stunDuration *= effectivenessMult;
 
         return (int)(stunDuration / hitPawn.BodySize);
     }
